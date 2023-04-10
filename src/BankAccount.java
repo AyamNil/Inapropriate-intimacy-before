@@ -20,6 +20,6 @@ public class BankAccount {
     public void displayAccountInfo() {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Balance: $" + balance);
-        System.out.println("Owner: " + owner.getName());
+        System.out.println("Owner: " + owner.name);
     }
 }
